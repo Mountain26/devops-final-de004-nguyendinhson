@@ -1,6 +1,7 @@
 # syntax=docker/dockerfile:1
 # =============================================================================
-#  Dockerfile - multi-stage build cho Spring Boot 4 / Java 21 / Gradle
+#  Dockerfile - FILE KHUNG (multi-stage build cho Spring Boot 4 / Java 21 / Gradle)
+#  Sinh viên hoàn chỉnh các ô ______ theo yêu cầu Phần 2 của đề thi.
 # =============================================================================
 
 # ---------- Stage 1: build - biên dịch & đóng gói bằng Gradle + JDK 21 ----------

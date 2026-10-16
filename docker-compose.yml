@@ -1,9 +1,9 @@
 # =============================================================================
-#  docker-compose.yml
-#  - Service "mysql", networks, volumes: ĐÃ CẤU HÌNH SẴN.
+#  docker-compose.yml - FILE KHUNG
+#  - Service "mysql", networks, volumes: ĐÃ CẤU HÌNH SẴN, không cần sửa.
 #  - Hệ thống chỉ gồm backend Spring Boot (trả JSON), Nginx làm reverse proxy, MySQL.
 #  - Mạng: proxy-net (nginx <-> app), db-net (app <-> mysql); MySQL KHÔNG publish cổng.
-#  - Đã điền các ô ______ tại các dòng TODO 1-5 trong service "app" và "nginx".
+#  - Sinh viên điền các ô ______ tại các dòng TODO trong service "app" và "nginx".
 #  - Chạy:  docker compose --env-file student.env up -d --build
 # =============================================================================
 name: ${COMPOSE_PROJECT_NAME:?Chua dien COMPOSE_PROJECT_NAME trong student.env}

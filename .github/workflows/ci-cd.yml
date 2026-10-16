@@ -1,7 +1,7 @@
 # =============================================================================
-#  .github/workflows/ci-cd.yml
+#  .github/workflows/ci-cd.yml - FILE KHUNG
 #  - Các bước không có TODO: ĐÃ VIẾT SẴN, không cần sửa.
-#  - Đã điền các ô ______ tại các dòng TODO 1-6.
+#  - Sinh viên điền các ô ______ tại các dòng TODO 1-6.
 #  - job build : kiểm tra student.env -> build & chạy thử -> smoke test -> push image GHCR
 #  - job deploy: SSH vào server -> cập nhật mã nguồn -> pull image -> khởi động lại
 # =============================================================================
