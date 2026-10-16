@@ -1,7 +1,6 @@
 # Build output (Gradle)
 build/
 .gradle/
-.png/
 out/
 *.jar
 !gradle/wrapper/gradle-wrapper.jar
@@ -21,3 +20,6 @@ Thumbs.db
 id_*
 deploy_key
 deploy_key.pub
+
+# Ảnh đề thi (không nộp) - KHÔNG dùng *.png vì screenshots/*.png phải nộp
+png/
